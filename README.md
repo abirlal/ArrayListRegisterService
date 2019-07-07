@@ -61,5 +61,5 @@ Running py Script on command prompt to open URL
 8.        response.close()
 9.       	dictdump = json.loads(jsonString)
 10.       return dictdump['response']
-11.       response = callRequest('http://127.0.0.1:2019/list/getAll')
+11.       response = callRequest('http://127.0.0.1:2018/server/info/version/')
 12.       print response
