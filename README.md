@@ -51,15 +51,15 @@ Python Package References
 
 Running py Script on command prompt to open URL
 ---------------------------------------------------
->import urllib2
->import json
->import os, time
->def callRequest(urlStr):
->	response = urllib2.urlopen(urlStr)
->	#print response.info()
->	jsonString = response.read()
->	response.close()
->	dictdump = json.loads(jsonString)
->	return dictdump['response']
->	response = callRequest('http://127.0.0.1:2019/list/getAll')
->	print response
+1. import urllib2
+2. import json
+3. import os, time
+4. def callRequest(urlStr):
+5.        response = urllib2.urlopen(urlStr)
+6.	      #print response.info()
+7.        jsonString = response.read()
+8.        response.close()
+9.       	dictdump = json.loads(jsonString)
+10.       return dictdump['response']
+11.       response = callRequest('http://127.0.0.1:2019/list/getAll')
+12.       print response
