@@ -45,18 +45,18 @@ GET API URLs List
 
 Running py Script on command prompt to open URL
 ---------------------------------------------------
->>>import urllib2
->>>import json
->>>import os, time
->>>def callRequest(urlStr):
->>>		response = urllib2.urlopen(urlStr)
->>>		#print response.info()
->>>		jsonString = response.read()
->>>		response.close()
->>>		dictdump = json.loads(jsonString)
->>>		return dictdump['response']
->>>response = callRequest('http://127.0.0.1:2019/list/getAll')
->>>print response
+import urllib2
+import json
+import os, time
+def callRequest(urlStr):
+		response = urllib2.urlopen(urlStr)
+		#print response.info()
+		jsonString = response.read()
+		response.close()
+		dictdump = json.loads(jsonString)
+		return dictdump['response']
+    response = callRequest('http://127.0.0.1:2019/list/getAll')
+    print response
 
 Python Package References 
 ----------------------------
