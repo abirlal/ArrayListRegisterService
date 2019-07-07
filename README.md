@@ -42,6 +42,12 @@ GET API URLs List
 18.	http://127.0.0.1:2019/queue/deleteAll/
 
 
+Python Package References 
+----------------------------
+1.  socket
+2.  threading
+3.  socketserver 
+4.  queue
 
 Running py Script on command prompt to open URL
 ---------------------------------------------------
@@ -49,18 +55,11 @@ import urllib2
 import json
 import os, time
 def callRequest(urlStr):
-		response = urllib2.urlopen(urlStr)
-		#print response.info()
-		jsonString = response.read()
-		response.close()
-		dictdump = json.loads(jsonString)
-		return dictdump['response']
-    response = callRequest('http://127.0.0.1:2019/list/getAll')
-    print response
-
-Python Package References 
-----------------------------
-1.	socket
-2.  threading
-3.  socketserver 
-4.  queue
+	response = urllib2.urlopen(urlStr)
+	#print response.info()
+	jsonString = response.read()
+	response.close()
+	dictdump = json.loads(jsonString)
+	return dictdump['response']
+	response = callRequest('http://127.0.0.1:2019/list/getAll')
+	print response
