@@ -22,24 +22,24 @@ Run Command of AaReyS Server on command prompt
 
 GET API URLs List
 --------------------
-1.	http://127.0.0.1:2019/server/info/version/
-2.	http://127.0.0.1:2019/list/create/listName/item
-3.	http://127.0.0.1:2019/list/insertItem/listName/item
-4.  http://127.0.0.1:2019/list/updateItem/listName/item
-5.	http://127.0.0.1:2019/list/getAllItem/listName
-6.	http://127.0.0.1:2019/list/findItem/listName/item
-7.	http://127.0.0.1:2019/list/getAll/
-8.	http://127.0.0.1:2019/list/deleteItem/listName/item
-9.	http://127.0.0.1:2019/list/delete/listName/
-10.	http://127.0.0.1:2019/list/deleteAll/
-11.	http://127.0.0.1:2019/queue/create/queueName/item
-12.	http://127.0.0.1:2019/queue/put/queueName/item
-13.	http://127.0.0.1:2019/queue/get/queueName
-14.	http://127.0.0.1:2019/queue/isEmpty/queueName
-15.	http://127.0.0.1:2019/queue/getAll/
-16. http://127.0.0.1:2019/queue/deleteItem/
-17.	http://127.0.0.1:2019/queue/delete/queueName
-18.	http://127.0.0.1:2019/queue/deleteAll/
+1.	http://127.0.0.1:2018/server/info/version/
+2.	http://127.0.0.1:2018/list/create/listName/item
+3.	http://127.0.0.1:2018/list/insertItem/listName/item
+4.  http://127.0.0.1:2018/list/updateItem/listName/item
+5.	http://127.0.0.1:2018/list/getAllItem/listName
+6.	http://127.0.0.1:2018/list/findItem/listName/item
+7.	http://127.0.0.1:2018/list/getAll/
+8.	http://127.0.0.1:2018/list/deleteItem/listName/item
+9.	http://127.0.0.1:2018/list/delete/listName/
+10.	http://127.0.0.1:2018/list/deleteAll/
+11.	http://127.0.0.1:2018/queue/create/queueName/item
+12.	http://127.0.0.1:2018/queue/put/queueName/item
+13.	http://127.0.0.1:2018/queue/get/queueName
+14.	http://127.0.0.1:2018/queue/isEmpty/queueName
+15.	http://127.0.0.1:2018/queue/getAll/
+16. http://127.0.0.1:2018/queue/deleteItem/
+17.	http://127.0.0.1:2018/queue/delete/queueName
+18.	http://127.0.0.1:2018/queue/deleteAll/
 
 
 Python Package References 
